@@ -1,4 +1,4 @@
-- name : Clone VM with souce vmid
+- name : Start VM with souce vmid
   hosts: all
   
   tasks: 
