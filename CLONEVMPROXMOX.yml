@@ -1,17 +1,17 @@
 ---
 - name : Clone VM with souce vmid
   hosts: all
-
+  
   tasks: 
-  - name : 
-    community.general.proxmox_kvm:
-      api_user: root@pam
-      api_password: 1234
-      api_host: SRVPAPV001
-      clone: arbitrary_name
-      vmid: 106
-      newid: 110
-      name: SRV-PA-WEB-Linux-001
-      node: SRVPAPV001
-      format: qcow2
-      timeout: 300
+    - name : Clone VM 
+      proxmox_kvm:
+        api_user: root@pam
+        api_password: r43QAY$Ypc7d
+        api_host: SRVPAPV001
+        clone: arbitrary_name
+        vmid: 106
+        newid: 111
+        name: SRV-PA-WEB-Linux-001
+        node: SRVPAPV001
+        format: qcow2
+        timeout: 300
