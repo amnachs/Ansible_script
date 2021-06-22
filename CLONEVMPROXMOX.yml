@@ -10,7 +10,7 @@
         api_host: SRVPAPV001
         clone: arbitrary_name
         vmid: 106
-        newid: 111
+        newid: 120
         name: SRV-PA-WEB-Linux-001
         node: SRVPAPV001
         format: qcow2
