@@ -7,4 +7,6 @@
         api_user: root@pam
         api_password: r43QAY$Ypc7d
         api_host: SRVPAPV001
+        vmid: 121
+        node: SRVPAPV001
         state: started
