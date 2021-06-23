@@ -10,8 +10,8 @@
         api_host: SRVPAPV001
         clone: arbitrary_name
         vmid: 106
-        newid: 121
-        name: SRV-PA-WEB-Linux-002
+        newid: 107
+        name: SRV-PA-DOCKER-DEBIAN-001
         node: SRVPAPV001
         format: qcow2
         timeout: 300
