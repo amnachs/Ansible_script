@@ -1,6 +1,7 @@
 - name : Change hostname debian
   hosts: all
 
-- name: Set a hostname
-  ansible.builtin.hostname:
-    name: SRV-PA-DOCKER-DEBIAN-001
+  tasks: 
+    - name : Set a hostname
+      ansible.builtin.hostname:
+        name: SRV-PA-DOCKER-DEBIAN-001
