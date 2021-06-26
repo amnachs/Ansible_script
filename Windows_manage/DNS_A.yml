@@ -2,7 +2,7 @@
   hosts: all
 
   tasks: 
-    - name : Ajout d'un nouvel hôte
+    - name: Ajout d'un nouvel hôte
       community.windows.win_dns_record:
         name: "SRVPADOCK001.chareauto.com"
         type: "A"
