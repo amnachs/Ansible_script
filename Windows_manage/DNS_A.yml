@@ -4,7 +4,7 @@
   tasks: 
     - name: Ajout d'un nouvel hôte
       community.windows.win_dns_record:
-        name: "SRVPADOCK001"
+        name: "SRV-PA-EON-001"
         type: "A"
-        value: "10.0.1.17"
+        value: "10.0.1.14"
         zone: "chareauto.com"
