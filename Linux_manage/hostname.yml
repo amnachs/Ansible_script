@@ -4,7 +4,7 @@
   tasks: 
     - name : Set a hostname
       ansible.builtin.hostname:
-        name: SRV-PA-DOCKER-DEBIAN-001
+        name: SRVPADOCK001
     
     - name : Reboot
       reboot:
