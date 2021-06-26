@@ -8,3 +8,9 @@
         type: "A"
         value: "10.0.1.14"
         zone: "chareauto.com"
+    - name: Create matching PTR record
+      community.windows.win_dns_record:
+        name: "14"
+        type: "PTR"
+        value: "SRV-PA-EON-001.chareauto.com"
+        zone: "1.0.10.in-addr.arpa"
