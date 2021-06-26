@@ -2,15 +2,15 @@
   hosts: all
 
   tasks: 
-    - name: Create matching PTR record
-      community.windows.win_dns_record:
-        name: "10.0.1.17"
-        type: "PTR"
-        value: "SRVPADOCK001.chareauto.com"
-        zone: "1.0.10.in-addr.arpa"
     - name: Ajout d'un nouvel hôte
       community.windows.win_dns_record:
-        name: "SRVPADOCK001.chareauto.com"
+        name: "SRVPADOCK001"
         type: "A"
         value: "10.0.1.17"
         zone: "chareauto.com"
+    - name: Create matching PTR record
+      community.windows.win_dns_record:
+        name: "17"
+        type: "PTR"
+        value: "SRVPADOCK001.chareauto.com"
+        zone: "1.0.10.in-addr.arpa"
