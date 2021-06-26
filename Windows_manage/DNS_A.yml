@@ -13,4 +13,4 @@
         name: "1.0.10"
         type: "PTR"
         value: "SRVPADOCK001"
-        zone: "17.1.0.10.in-addr.arpa"
+        zone: "1.0.10.in-addr.arpa"
