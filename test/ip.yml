@@ -1,0 +1,4 @@
+- name : get ip
+  hosts: all
+  tasks:
+    - debug: var=ansible_all_ipv4_addresses
