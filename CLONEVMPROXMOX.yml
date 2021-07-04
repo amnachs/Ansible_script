@@ -10,8 +10,8 @@
         api_host: SRVPAPV001
         clone: arbitrary_name
         vmid: 106
-        newid: 107
-        name: SRVPADOCK001
+        newid: 110
+        name: SRVPATEST01
         node: SRVPAPV001
         format: qcow2
         timeout: 300
