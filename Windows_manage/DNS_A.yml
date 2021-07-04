@@ -4,13 +4,13 @@
   tasks: 
     - name: Ajout d'un nouvel hôte
       community.windows.win_dns_record:
-        name: "SRV-PA-EON-001"
+        name: "SRVPATEST01"
         type: "A"
-        value: "10.0.1.14"
+        value: "10.0.1.43"
         zone: "chareauto.com"
     - name: Create matching PTR record
       community.windows.win_dns_record:
-        name: "14"
+        name: "43"
         type: "PTR"
-        value: "SRV-PA-EON-001.chareauto.com"
+        value: "SRVPATEST01.chareauto.com"
         zone: "1.0.10.in-addr.arpa"
